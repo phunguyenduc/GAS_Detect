@@ -1,0 +1,13 @@
+train: /mnt/d/Code/Project/GAS/Gas_sql_data/DATA_for_train/train/images
+val: /mnt/d/Code/Project/GAS/Gas_sql_data/DATA_for_train/valid/images
+test: /mnt/d/Code/Project/GAS/Gas_sql_data/DATA_for_train/test/images
+
+nc: 1
+names: ['screen']
+
+roboflow:
+  workspace: minhnguyen
+  project: gas-screen-detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/minhnguyen/gas-screen-detect/dataset/1
